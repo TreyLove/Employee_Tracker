@@ -1,0 +1,23 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TreyLove/Employee_Tracker.git"
+  },
+  "author": "Trey Love",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TreyLove/Employee_Tracker/issues"
+  },
+  "homepage": "https://github.com/TreyLove/Employee_Tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1"
+  }
+}
