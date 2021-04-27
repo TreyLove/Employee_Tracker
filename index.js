@@ -198,7 +198,7 @@ const mainMen = () => {
         name: 'logDb',
         type: 'list',
         message: 'what would you like to do?',
-        choices: ['View', 'Add', 'Remove', 'Update']
+        choices: ['View', 'Add', 'Update']
     })
         .then((answer) => {
             switch (answer.logDb) {
@@ -243,28 +243,28 @@ const mainMen = () => {
                         })
                     break;
 
-                case 'Remove':
-                    inquirer.prompt({
-                        name: 'remChoice',
-                        type: 'list',
-                        message: 'What would you like to remove?',
-                        choices: ['Employees', 'Departments', 'Roles']
-                    })
-                        .then((answer) => {
-                            if (answer.remChoice === 'Employees') {
+                // case 'Remove':
+                //     inquirer.prompt({
+                //         name: 'remChoice',
+                //         type: 'list',
+                //         message: 'What would you like to remove?',
+                //         choices: ['Employees', 'Departments', 'Roles']
+                //     })
+                //         .then((answer) => {
+                //             if (answer.remChoice === 'Employees') {
 
-                            }
+                //             }
 
-                            else if (answer.remChoice === 'Departments') {
+                //             else if (answer.remChoice === 'Departments') {
 
-                            }
+                //             }
 
-                            else if (answer.remChoice === 'Roles') {
+                //             else if (answer.remChoice === 'Roles') {
 
-                            }
-                        })
+                //             }
+                //         })
 
-                    break;
+                //     break;
 
                 case 'Update':
                     inquirer.prompt({
